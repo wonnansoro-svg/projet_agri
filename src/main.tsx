@@ -1,10 +1,13 @@
-import React from 'react'
-import ReactDOM from 'react-dom/client'
-import App from './App.tsx'
-import './index.css' // <-- C'est ici que React charge le CSS !
+import React from 'react';
+// Assurez-vous que le nom du fichier correspond bien à celui que vous avez créé
+import CoopDashboard from './App.tsx'; 
 
-ReactDOM.createRoot(document.getElementById('root')!).render(
-  <React.StrictMode>
-    <App />
-  </React.StrictMode>,
-)
+const App: React.FC = () => {
+  return (
+    <div className="h-screen w-full bg-gray-50">
+      <CoopDashboard />
+    </div>
+  );
+};
+
+export default App;
