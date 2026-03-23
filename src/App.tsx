@@ -1,6 +1,5 @@
 import React from 'react';
-// Assurez-vous que le nom du fichier correspond bien à celui que vous avez créé
-import CoopDashboard from './CoopDashboard'; 
+import CoopDashboard from './CoopDashboard.tsx'; 
 
 const App: React.FC = () => {
   return (
