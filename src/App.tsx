@@ -1,5 +1,5 @@
 import React from 'react';
-import CoopDashboard from './CoopDashboard.tsx'; 
+import CoopDashboard from './CoopDashboard'; 
 
 const App: React.FC = () => {
   return (
